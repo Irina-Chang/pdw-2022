@@ -1,0 +1,50 @@
+header {
+    background-image: url("./img/background/logoOficial.jpg");
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 250px;
+    padding-bottom: 25px;
+}
+
+body {
+    background-color: #083358;
+    color: #FF004D;
+}
+
+.links {
+    display: inline;
+}
+
+a {
+    color: #5FCC9C;
+    border-radius: 5px;
+    background-color: #1A1A2E;
+    padding: 15px;
+}
+
+p {
+    color: #010111;
+}
+
+table {
+    border: solid #215B63;
+    border-style: solid 2px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #3d575a;
+}
+
+th {
+    border: solid 1px;
+    border-style: double, 1px;
+    color: #16213E;
+}
+
+td {
+    border: solid 1px;
+    border-style: double, 1px;
+    border-radius: 1px;
+    color: #1A1A2E;
+    background-color: #3d575a;
+    padding: 2px;
+}

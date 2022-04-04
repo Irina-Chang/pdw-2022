@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header>
+        <H1>CL- STORE</H1>
+        <nav>
+            <ul>
+
+                <li class="links"><a href="Home.html">Home</a></li>
+                <li class="links"><a href="Produtos.html">Produtos</a></li>
+                <li class="links"><a href="Tabela.html">Tabela de Preços</a></li>
+                <li class="links"><a href="Cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+
+        <div class="corpo_texto">
+            <h2>Cadastro</h2>
+            <p>Cadastre-se em nossa loja para realizar suas compras e receber nossa newsletter com produtos novos, ofertas, novidades do campeonato e muito mais! </p>
+            <br> Qualquer dúvida, críticas ou comentários, nos envie um email! <a href="malito:atendimento@clstore.com.br">atendimento@clstore.com.br</a>
+            <br>
+
+            <h4> Preencha seus dados para efetivar o cadastro!
+                <h4>
+
+                    <form class="form" method="post" id="formulario" oninput="saida.value=idade.value">
+                        <fieldset>
+                            <legend>Cadastro</legend>
+                            <div class="form">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" id="nome" size="50" required>
+
+                            </div>
+
+                            <div class="form">
+                                <label for="idade"> Idade</label>
+                                <input type="range" id="idade" value="18" min="18" max="100">
+                                <output id="saida" for="idade"> 18 </output> anos
+                            </div>
+
+                            <div class="form">
+                                <label for="celular">Celular</label>
+                                <input type="tel" id="celular" name="celular" placeholder="11 11223-1122" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required>
+                            </div>
+
+                            <div class="form">
+                                <label for="mail">E-mail</label>
+                                <input type="email" id="mail" name="mail" required>
+
+                            </div>
+
+                            <div class="form">
+                                <label for="cidade"> Cidade</label>
+                                <input type="text" id="cidade" name="cidade" size="38" required>
+
+                                <label for="uf"> UF:</label>
+                                <input list="estados" id="uf" name="uf" size="5">
+                                <datalist id="estados">
+                                <option value="AC"> Acre </option>
+                                <option value="AL"> Alagoas </option>
+                                <option value="AP">Amapá </option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>DF </option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goias</option>
+                                <option value="MA">Maranhão </option>
+                                <option value="MG">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul </option>
+                                <option value="MS">Minas Gerais>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piaui</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte </option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondonia </option>
+                                <option value="RR">Roraima </option>
+                                <option value="SC">Santa Catarina </option>
+                                <option value="SP">São Paulo </option>
+                                <option value="SE">Sergipe </option>
+                                <option value="TO">Tocantins </option>
+                            </datalist>
+                            </div>
+
+        </div>
+
+        <div class="form">
+            <label for="tipopagamento"> Forma de Pagamento:</label>
+            <select name="tipopagamento" id="tipopagamento">
+                                <option value="transferencia"> Transferência (TED/DOC)</option>
+                                <option value="pix"> Pix </option>
+                                <option value="dinheiro"> Dinheiro </option>
+                                <optgroup label="Cartão de Credito">
+                                    <option value="mastercard"> Mastercard </option>
+                                    <option value="visa"> Visa </option>
+                                    <option value="elo"> Elo </option>
+                                </optgroup>
+                            </select>
+        </div>
+
+        <div class="form">
+            <input type="submit" value="Confirmar Cadastro" class="fonte-corpo" id="send" onclick="alert('Obrigado! Prometemos não enviar spam! Aproveite nossa loja!')">
+        </div>
+        </fieldset>
+        </form>
+        </div>
+    </section>
+</body>
+
+</html>
