@@ -1,9 +1,9 @@
 /*Estilização para home principal*/
+
 * {
     margin: 0;
     padding: 0;
 }
-
 
 a {
     color: rgb(211, 180, 180);
@@ -12,9 +12,7 @@ a {
 
 .logo {
     font-size: 24px;
-  
 }
-
 
 nav {
     display: flex;
@@ -44,7 +42,6 @@ main .content:hover {
     transition: 0.3s;
 }
 
-
 .nav-list {
     list-style: none;
     display: flex;
@@ -58,17 +55,28 @@ main .content:hover {
 .nav-list li:hover {
     background-color: grey;
     transition: 0.3s;
+    border-radius: 3px;
+    padding: 3px;
 }
+
 
 /*End Estilização para home principal*/
 
+
 /*estilização tabela de preços*/
+
+.corpoTabela {
+    background-color: black;
+}
+
 table {
+    font-family: 'Comfortaa', cursive;
     border: solid #215B63;
     border-style: solid 2px;
     border-radius: 10px;
-    padding: 15px;
-    background-color: #3d575a;
+    border-collapse: collapse;
+    padding: 20px;
+    background-color: #cee2e4;
 }
 
 th {
@@ -82,16 +90,26 @@ td {
     border-style: double, 1px;
     border-radius: 1px;
     color: #1A1A2E;
-    background-color: #3d575a;
+    background-color: #cee2e4;
     padding: 2px;
 }
+
+.tabela {
+    margin-left: 38%;
+    justify-content: center;
+    display: inline-block;
+}
+
+
 /*End estilização tabela de preços*/
+
 
 /*Estilização html de produtos*/
 
-.product-sections .img img{
+.product-sections .img img {
     width: 200px;
     margin-top: 25px;
+    border: black solid;
 }
 
 .product-sections section p {
@@ -101,8 +119,25 @@ td {
 }
 
 .product-sections {
-    padding: 25px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    row-gap: 15px;
+    justify-content: space-around;
     background-color: rgb(252, 252, 252);
 }
 
+
 /*End Estilização html de produtos*/
+
+
+/*Inicio Estilização html de cadastro*/
+
+.corpo_texto {
+    font-family: 'Comfortaa', cursive;
+    line-height: 140%;
+    padding: 5px 20px 15px;
+}
+
+.form {
+    padding: 5px
+}
