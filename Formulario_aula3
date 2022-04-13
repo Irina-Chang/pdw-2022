@@ -6,7 +6,7 @@
   </head>
 
   <body>
-      <form name="cadastro_clientes" action"gravar_cliente.jsp" method="post">
+      <form onSubmit=submitForm() name="cadastro_clientes" action"gravar_cliente.jsp" method="post">
         <h2 align "center"> Formulario de Cadastro </h2>
 
       <p>
@@ -45,5 +45,17 @@
       </p>
 
       </form>
+      
+       <script>
+       
+      	function submitForm() {
+			userName = prompt("Digite seu nome: ");
+			
+			alert("Bem vindo a Aplicação " + userName);
+	
+	}
+	
+      </script>
+
 	</body>
  </html>
