@@ -5,5 +5,5 @@ Repositório com as atividades desenvolvidas para a matéria de Programação Di
 Professor responsável: Floriano Ferreira dos Reis Filho.
 
 Códigos desenvolvidos por:
-Irina Chang G Ferreira SP3058123
-Deivid Aleixo de Almeida SP305313X
+<br>Irina Chang G Ferreira SP3058123
+<br>Deivid Aleixo de Almeida SP305313X
