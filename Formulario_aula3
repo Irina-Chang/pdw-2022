@@ -6,7 +6,7 @@
   </head>
 
   <body>
-      <form onSubmit=submitForm() name="cadastro_clientes" action"gravar_cliente.jsp" method="post">
+      <form onSubmit=submitForm() name="cadastro_clientes"  method="post">
         <h2 align "center"> Formulario de Cadastro </h2>
 
       <p>
